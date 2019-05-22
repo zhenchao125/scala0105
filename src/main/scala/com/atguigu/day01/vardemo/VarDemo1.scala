@@ -14,8 +14,6 @@ object VarDemo1 {
         println(j)
         
         val a = 10
-        
-        
     }
 }
 
