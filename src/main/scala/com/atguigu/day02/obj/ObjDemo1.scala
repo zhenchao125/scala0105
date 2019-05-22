@@ -1,7 +1,9 @@
 package com.atguigu.day02.obj
 
 object ObjDemo1 {
+    def main(args: Array[String]): Unit = {
     
+    }
 }
 
 /*

@@ -11,10 +11,19 @@ public class ADemo {
 
         System.out.println(a.getI());
         System.out.println(b.getI());
+
+
     }
 }
 
 class A{
+    static {
+
+    }
+
+    {
+      //先与构造函数执行
+    }
     public int i = 10;
 
     public int getI(){
