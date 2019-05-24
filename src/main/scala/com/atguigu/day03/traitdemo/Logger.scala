@@ -16,9 +16,7 @@ trait Logger extends Exception{
     }
 }*/
 
-class ConsoleLogger extends Exception with Logger {
-
-}
+class ConsoleLogger extends Exception with Logger
 
 
 class A
