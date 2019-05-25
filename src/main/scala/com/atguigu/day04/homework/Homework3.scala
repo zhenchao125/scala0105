@@ -2,7 +2,13 @@ package com.atguigu.day04.homework
 
 object Homework3 {
     def main(args: Array[String]): Unit = {
+        println(120 +% 10)
+    }
     
+    implicit class Rich(n: Int){
+        def +%(ratio: Int) ={
+            n * (1 + ratio.toDouble / 100 )
+        }
     }
 }
 
