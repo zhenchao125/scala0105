@@ -7,6 +7,8 @@
 
     返回: Map(H->{0}, e -> {1, 5, 6}, ...)   数字其实是下标
 
-4. 实现一个函数，作用与mkString相同，使用reduceLeft。
+4. 实现一个函数，作用与mkString相同，使用foldLeft
 
-5. 实现一个scala版的wordcount
+5. 实现一个 scala 版的 wordcount
+    读取文件, 然后实现
+    Source.

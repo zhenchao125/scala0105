@@ -15,6 +15,9 @@ object PartiDemo1 {
         val pow31: Double => Double = Math.pow(_, 1.0 / 3)
         println(pow31(27))
     }
-    
-    
 }
+
+/*
+
+
+*/
