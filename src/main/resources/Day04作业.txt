@@ -7,4 +7,6 @@
 
     返回: Map(H->{0}, e -> {1, 5, 6}, ...)   数字其实是下标
 
-    注意: 返回的是可变Map
+4. 实现一个函数，作用与mkString相同，使用reduceLeft。
+
+5. 实现一个scala版的wordcount
