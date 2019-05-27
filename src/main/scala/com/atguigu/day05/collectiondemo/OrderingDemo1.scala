@@ -14,7 +14,9 @@ object OrderingDemo1 {
     }
 }
 
-class User(val age: Int, val name: String)
+class User(val age: Int, val name: String){
+    override def toString(): String = s"[$age  $name]"
+}
 
 class UserOrdering extends Ordering[User] {
     override def compare(x: User, y: User): Int = {
