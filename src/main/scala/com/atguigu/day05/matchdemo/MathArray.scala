@@ -13,7 +13,7 @@ object MathArray {
             //            case Array(a, 20, b) => println(a, b)
             //            case Array(a, _*) => println(a)
             //            case Array(a, b, _*) => println(a)
-//            case Array(a, b, v@_*) => println(v.mkString(", "))
+            case Array(a, b, v@_*) => println(v.mkString(", "))
         }
     }
 }
