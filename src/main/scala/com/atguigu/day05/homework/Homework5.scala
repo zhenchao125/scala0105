@@ -18,5 +18,5 @@ object Homework5 {
 /*
 5. 实现一个 scala 版的 wordcount
     读取文件, 然后实现
-    Source.
+    
  */
