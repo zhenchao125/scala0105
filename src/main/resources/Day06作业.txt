@@ -1,0 +1,12 @@
+
+1. 如果使用样例会更好一些, 从二叉树开始
+    sealed abstract class BinaryTree
+    case class Leaf(value : Int) extends BinaryTree
+    case class Node(left: BinaryTree, right: BinaryTree) extends BinaryTree
+
+    编写一个函数计算所有叶子节点的元素的和
+    Node(Leaf(10), Node(Node(Leaf(20), Leaf(30)), Leaf(50))))
+
+2. 大公司面试题: 使用递归(不用尾递归)
+   假设某国的货币有若干面值，现给一张大面值的货币要兑换成零钱，问有多少种兑换方式
+
