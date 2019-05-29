@@ -1,3 +1,4 @@
+/*
 package com.atguigu.day06.generic
 
 object GenericDemo2 {
@@ -23,4 +24,4 @@ class User(val age: Int) extends Ordered[User] {
     override def compare(that: User): Int = this.age - that.age
     
     override def toString = s"User($age)"
-}
+}*/
